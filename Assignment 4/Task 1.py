@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-nvalues=[500, 1000, 2000, 5000, 10000, 15000, 20000, 50000, 100000]
+value_of_n=[500, 1000, 2000, 5000, 10000, 15000, 20000, 50000, 100000]
 
-for n in nvalues:
+for n in value_of_n:
     dice1 = np.random.randint(1, 7, size=n)
     dice2 = np.random.randint(1, 7, size=n)
     s = dice1 + dice2
